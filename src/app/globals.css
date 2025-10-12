@@ -45,7 +45,7 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
+  --background: #F3EAE5;
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
@@ -118,5 +118,19 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer base {
+  h1 {
+    color: #C64534;
+    font-family: 'Hammersmith One', sans-serif;
+  }
+}
+
+@layer base {
+  p {
+    color: #191919;
+    font-family: 'Prompt', sans-serif;
   }
 }
