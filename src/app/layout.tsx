@@ -10,17 +10,18 @@ const hammersmith = Hammersmith_One({
 })
 
 const prompt = Prompt({
-  weight: "400",
+  weight: ["300", "400", "500", "600", "700"],
   subsets: ["latin"],
 })
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return (
+  return (  
     <html lang="en">
-      <body className={hammersmith.className}>{children}</body>
-      <body className={prompt.className}>{children}</body>
+      {/* both fonts */}
+      <body className={`${hammersmith.className} ${prompt.className}`}>
+      {children} {/* main content */}
+      </body>
     </html>
   );
 }
 
-//nav bar

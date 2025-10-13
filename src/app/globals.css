@@ -134,3 +134,11 @@
     font-family: 'Prompt', sans-serif;
   }
 }
+
+@layer base {
+  NavLink {
+    color: #191919;
+    font-family: 'Prompt', sans-serif;
+    
+  }
+}
