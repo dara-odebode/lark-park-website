@@ -53,7 +53,6 @@ export default function HomePage() {
 
       {/* Page content */}
 
-
       {/* header */}
       <h1 className="text-6xl font-bold mb-29 text-left leading-snug px-8 mt-37 tracking-wide">
         WHERE PERFORMANCE<br />MEETS PURPOSE.</h1>
@@ -83,6 +82,16 @@ export default function HomePage() {
           />
         </div>
       </div>
+
+      {/*ABOUT SECTION */}
+
+      {/* Header */}
+      <div className="">
+      <p className="ml-8 text-[#C64534] font-light text-left leading-relaxed mt-45">
+        ABOUT US</p>
+      <h1 className="text-6xl font-bold mb-29 text-left leading-snug px-8 tracking-wide">
+        WHO WE ARE</h1>
+        </div>
     </main>
   )
 }
