@@ -78,8 +78,7 @@ export default function HomePage() {
             alt="bird image" 
             width={389} 
             height={400} 
-            className="object-contain -scale-x-100"
-          />
+            className="object-contain -scale-x-100"/>
         </div>
       </div>
 
@@ -89,9 +88,48 @@ export default function HomePage() {
       <div className="">
       <p className="ml-8 text-[#C64534] font-light text-left leading-relaxed mt-45">
         ABOUT US</p>
-      <h1 className="text-6xl font-bold mb-29 text-left leading-snug px-8 tracking-wide">
+      <h1 className="text-6xl font-bold mb-15 text-left leading-snug px-8 tracking-wide">
         WHO WE ARE</h1>
         </div>
+
+      {/* Images */}
+      <div className="columns-2 gap-50 w-240 h-auto mb-12 ml-60 text-2xl">
+        <div className="text-left space-y-2">
+          <img src="/Chloe.jpg" alt="Chloe" className="float-none" />
+          <p className="text-2xl font-medium">Chloe Coombes</p>
+          <p className="italic font-normal">She/her</p>
+          <p className="text-sm font-medium">Writer, director, facilitator and performer. Debut play Tea was produced by UpYoursCo in 2024, Burnt Orange Theatre Company in 2023, and self-produced in 2023.</p>
+        </div>
+
+        <div className="text-left space-y-2">
+          <img src="/Ashleigh-Ann.png" alt="Ashleigh-Ann" className="float-none" />
+          <p className="text-2xl font-medium">Ashleigh-Ann French</p>
+          <p className="italic font-normal">She/her</p>
+          <p className="text-sm font-medium">Writer, director, facilitator and represented actor.
+            Performed with VML, CFI Media, UpYoursCo, and Deptford Lounge. Debut short film Get Nick Back was produced by CFI Media in 2024.</p>
+        </div>
+      </div>
+
+      {/* Description section */}
+      <div className="bg-[#77211F] p-8 mt-8 flex flex-col md:flex-row items-start justify-between h-67">
+
+        {/* Bird image */}
+        <div className="flex-shrink-0 self-start -mt-23 -mr-px">
+          <Image 
+            src="/bird.png" 
+            alt="bird image" 
+            width={389} 
+            height={400} 
+            className="object-contain scale-x-100"/>
+        </div>
+        
+        {/* Text section */}
+        <div className="flex-1 pr-8 flex flex-col justify-start">
+          <p className="max-w-4xl text-[#F3EAE5] font-light text-left leading-relaxed mt-6">
+          Trained at Guildford School of Acting on BA(Hons) Applied and Contemporary Theatre. As facilitators Ashleigh-Ann and Chloe have experience working with KS3, KS4, and KS5 students, young carers and adults with additional learning needs.</p>
+        </div>
+      </div>
+
     </main>
   )
 }
