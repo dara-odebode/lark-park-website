@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
-import { Hammersmith_One, Prompt} from "next/font/google";
+import React from "react";
+import { Hammersmith_One, Prompt} from "next/font/google"; //both fonts
 import "./globals.css";
+import { Footer7 } from "@/components/Footer7"; 
 
 //fonts
 
@@ -20,8 +22,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       {/* both fonts */}
       <body className={`${hammersmith.className} ${prompt.className}`}>
       {children} {/* main content */}
-      </body>
-    </html>
-  );
+      <Footer7 /> {/* footer component */} 
+    </body>
+  </html>
+ );
 }
 

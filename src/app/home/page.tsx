@@ -111,7 +111,7 @@ export default function HomePage() {
       </div>
 
       {/* Description section */}
-      <div className="bg-[#77211F] p-8 mt-8 flex flex-col md:flex-row items-start justify-between h-67">
+      <div className="bg-[#77211F] p-8 mt-8 mb-20 flex flex-col md:flex-row items-start justify-between h-67">
 
         {/* Bird image */}
         <div className="flex-shrink-0 self-start -mt-23 -mr-px">
