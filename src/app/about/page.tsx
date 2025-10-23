@@ -19,7 +19,7 @@ export default function HomePage() {
       >
         {label}
         {isActive && (
-          <span className="absolute left-0 -bottom-1 w-full h-[2px] bg-[#C64534] rounded-full"></span>
+          <span className="absolute left-0 -bottom-1 w-full h-[3px] bg-[#C64534]"></span>
         )}
       </Link>
     )
@@ -55,7 +55,7 @@ export default function HomePage() {
 
       {/* header */}
       <h1 className="text-6xl font-bold mb-29 text-left leading-snug px-8 mt-37 tracking-wide">
-        WHERE PERFORMANCE<br />MEETS PURPOSE.</h1>
+        WHERE PERFORMANCE <br /> MEETS PURPOSE.</h1>
         
       {/* Description section */}
       <div className="bg-[#77211F] p-8 mt-8 flex flex-col md:flex-row items-start justify-between h-67">

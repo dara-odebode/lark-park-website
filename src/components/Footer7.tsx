@@ -67,7 +67,7 @@ const Footer7 = ({
     
           {/* footer bar*/}
           <div className="border-t-3 border-[#C64534] mt-10 pt-6 flex flex-col md:flex-row justify-between items-center font-medium text-[#F3EAE5]">
-            <div className="flex items-center gap-80">
+            <div className="flex items-center gap-83">
               <img
                 src="/footerLogo.png"
                 alt="Logo 1"
