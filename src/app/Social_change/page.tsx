@@ -53,39 +53,35 @@ export default function HomePage() {
 
       {/*  Community Projects Header */}
      
-      <p className="ml-8 text-[#C64534] text-left leading-relaxed mt-18">
-        Previous Projects</p>
-      <h1 className="text-6xl font-bold mb-15 text-left leading-snug px-8 tracking-wide">
-        Community Projects</h1>
+      <h1 className="text-4xl font-bold mt-15 text-left leading-snug px-8 tracking-wide">
+      INTRODUCTION TO DEVISING FOR SOCIAL CHANGE</h1>
+        <p className="ml-8 text-[#C64534] text-left leading-relaxed mb-15">
+        2024 | _ Mins | English | Produced by _</p>
 
       {/* Images */}
       <div className="columns-2 gap-40 w-240 h-auto mb-12 ml-10 text-2xl">
         <div className="text-middle space-y-2">
           <img src="/Chloe.jpg" alt="Chloe" className="float-none" />
-          <p className="text-2xl font-bold">INTRODUCTION TO DEVISING FOR SOCIAL CHANGE</p>
         </div>
 
         <div className="text-middle space-y-2">
           <img src="/Ashleigh-Ann.png" alt="Ashleigh-Ann" className="float-none" />
-          <p className="text-2xl font-bold">INTRODUCTION TO DEVISING AND CHARACTER CREATION</p>
         </div>
       </div>
       
-      {/* Production Work Header */}
+      {/* BEHIND THE SCENES */}
     
-      <h1 className="text-6xl font-bold mb-15 text-left leading-snug px-8 tracking-wide mt-10">
-        Production Work</h1>
+      <h1 className="text-4xl font-bold mb-15 text-left leading-snug px-8 tracking-wide mt-10">
+        Behind the Scenes </h1>
 
       {/* Images */}
       <div className="columns-2 gap-40 w-240 h-auto mb-12 ml-10 text-2xl">
         <div className="text-middle space-y-2">
           <img src="/Chloe.jpg" alt="Chloe" className="float-none" />
-          <p className="text-2xl font-bold">TEA</p>
         </div>
 
         <div className="text-left space-y-2">
           <img src="/Ashleigh-Ann.png" alt="Ashleigh-Ann" className="float-none" />
-          <p className="text-2xl font-medium">Ashleigh-Ann French</p>
         </div>
       </div>
     </main>

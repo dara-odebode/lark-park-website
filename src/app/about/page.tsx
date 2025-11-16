@@ -61,18 +61,18 @@ export default function HomePage() {
       <div className="bg-[#77211F] p-8 mt-8 flex flex-col md:flex-row items-start justify-between h-67">
 
         {/* Text section */}
-        <div className="flex-1 pr-8 flex flex-col justify-start">
-          <p className="max-w-4xl text-[#F3EAE5] font-light text-left leading-relaxed mt-6">
+        <div className="flex-1 pr-8 flex flex-col justify-start tracking-wide ml-30">
+          <p className="max-w-3xl text-[#F3EAE5] text-center leading-8 mt-4">
             Lark Park Theatre specialise in bringing theatre to communities through thought-provoking, engaging, and exciting workshops. With a focus on collaborative devising, Lark Park facilitates the creation of stories most relevant to the people they work with.
           </p>
 
-          <p className="max-w-4xl text-[#F3EAE5] font-light text-left leading-relaxed mt-6">
+          <p className="max-w-3xl text-[#F3EAE5] text-center leading-relaxed mt-6">
             As a producing company, Lark Park works with exciting emerging theatre artists, connecting them with venues and supporting the creation of bold new work.
           </p>
         </div>
 
         {/* Bird image */}
-        <div className="flex-shrink-0 self-start -mt-23 -mr-px">
+        <div className="flex-shrink-0 self-start -mt-[92.5px] -mr-[92px]">
           <Image 
             src="/bird.png" 
             alt="bird image" 
@@ -82,26 +82,32 @@ export default function HomePage() {
         </div>
       </div>
 
+
+
       {/*ABOUT SECTION */}
 
+
+
+
       {/* Header */}
-      <div className="">
-      <p className="ml-8 text-[#C64534] font-light text-left leading-relaxed mt-45">
+      <div className="mb-20">
+      <p className="ml-8 text-[#C64534] font-light text-left leading-relaxed mt-38">
         ABOUT US</p>
-      <h1 className="text-6xl font-bold mb-15 text-left leading-snug px-8 tracking-wide">
+      <h1 className="text-6xl font-bold text-left leading-snug px-8 tracking-wide">
         WHO WE ARE</h1>
         </div>
 
       {/* Images */}
-      <div className="columns-2 gap-50 w-240 h-auto mb-12 ml-60 text-2xl">
-        <div className="text-left space-y-2">
+      <div className="columns-2 gap-70 w-240 h-auto mb-12 ml-60 text-2xl">
+
+        <div className="text-center space-y-2">
           <img src="/Chloe.jpg" alt="Chloe" className="float-none" />
           <p className="text-2xl font-medium">Chloe Coombes</p>
           <p className="italic font-normal">She/her</p>
           <p className="text-sm font-medium">Writer, director, facilitator and performer. Debut play Tea was produced by UpYoursCo in 2024, Burnt Orange Theatre Company in 2023, and self-produced in 2023.</p>
         </div>
 
-        <div className="text-left space-y-2">
+        <div className="text-center space-y-2">
           <img src="/Ashleigh-Ann.png" alt="Ashleigh-Ann" className="float-none" />
           <p className="text-2xl font-medium">Ashleigh-Ann French</p>
           <p className="italic font-normal">She/her</p>
@@ -114,7 +120,7 @@ export default function HomePage() {
       <div className="bg-[#77211F] p-8 mt-8 mb-20 flex flex-col md:flex-row items-start justify-between h-67">
 
         {/* Bird image */}
-        <div className="flex-shrink-0 self-start -mt-23 -mr-px">
+        <div className="flex-shrink-0 self-start mt-[-92.5px] mr-auto -ml-[93px]">
           <Image 
             src="/bird.png" 
             alt="bird image" 
@@ -124,14 +130,14 @@ export default function HomePage() {
         </div>
         
         {/* Text section */}
-        <div className="flex-1 pr-8 flex flex-col justify-start">
-          <p className="max-w-4xl text-[#F3EAE5] font-light text-left leading-relaxed mt-6">
+        <div className="flex-1 pr-8 flex flex-col text-center justify-start tracking-wide ml-29">
+          <p className="max-w-3xl text-[#F3EAE5] leading-8 mt-11">
           Trained at Guildford School of Acting on BA(Hons) Applied and Contemporary Theatre. As facilitators Ashleigh-Ann and Chloe have experience working with KS3, KS4, and KS5 students, young carers and adults with additional learning needs.</p>
         </div>
       </div>
-
     </main>
   )
 }
+
 
   
