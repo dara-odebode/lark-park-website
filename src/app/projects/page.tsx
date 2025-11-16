@@ -12,29 +12,27 @@ export default function HomePage() {
     const isActive = pathname === href;
     return (
       <Link
-        href={href}
-        className={`relative pb-1 transition-colors duration-200 ${
-          isActive ? "text-[#191919]" : "text-[#191919] hover:text-[#77211F]"
-        }`}
-      >
-        {label}
-        {isActive && (
-          <span className="absolute left-0 -bottom-1 w-full h-[3px] bg-[#C64534]"></span>
-        )}
-      </Link>
-    )
-  }
+      href={href}
+      className={`relative pb-1 transition-colors duration-200 ${
+        isActive ? "text-[#F3EAE5]" : "text-[#F3EAE5] hover:text-[#191919]"
+      }`}
+    >
+      {label}
+      {isActive && (
+        <span className="absolute left-0 -bottom-1 w-full h-[3px] bg-[#C64534]"></span>
+      )}
+    </Link>
+  )
+}
 
   return (
-    <main className="flex flex-col text-center px-9">
+    <main className="flex flex-col text-center px-9 bg-[#77211F] mb-0.5">
 
       {/* Navbar */}
       <nav className="w-full flex justify-between items-center px-5 py-6">
         <Link href="/" className="flex items-center space-x-3">
-
-        {/* Logo image */}
           <Image 
-            src="/logo.png" 
+            src="/logo_white.png" 
             alt="Lark Park Theatre Logo" 
             width={160} 
             height={160} 
@@ -53,39 +51,33 @@ export default function HomePage() {
 
       {/*  Community Projects Header */}
      
-      <p className="ml-8 text-[#C64534] text-left leading-relaxed mt-18">
+      <p className="ml-8 text-[#F3EAE5] text-left leading-relaxed mt-18">
         Previous Projects</p>
-      <h1 className="text-6xl font-bold mb-15 text-left leading-snug px-8 tracking-wide">
+      <h1 className=" text-[#F3EAE5] text-5xl font-bold mb-19 text-left leading-snug px-8 tracking-wide">
         Community Projects</h1>
 
       {/* Images */}
-      <div className="columns-2 gap-40 w-240 h-auto mb-12 ml-10 text-2xl">
-        <div className="text-middle space-y-2">
-          <img src="/Chloe.jpg" alt="Chloe" className="float-none" />
-          <p className="text-2xl font-bold">INTRODUCTION TO DEVISING FOR SOCIAL CHANGE</p>
-        </div>
+      <div className="flex gap-80 w-full ml-10 text-2xl mb-30">
 
-        <div className="text-middle space-y-2">
-          <img src="/Ashleigh-Ann.png" alt="Ashleigh-Ann" className="float-none" />
-          <p className="text-2xl font-bold">INTRODUCTION TO DEVISING AND CHARACTER CREATION</p>
-        </div>
-      </div>
-      
+  <div className="bg-[#222222] p-8 h-70 w-117 flex items-center justify-center">
+    <p className="font-bold text-center mt-92"> INTRODUCTION TO DEVISING FOR SOCIAL CHANGE </p>
+  </div>
+
+  <div className="bg-[#222222] p-8 h-70 w-117 flex items-center justify-center">
+    <p className="font-bold text-center mt-92"> INTRODUCTION TO DEVISING AND CHARACTER CREATION </p>
+  </div>
+</div>
+
+
       {/* Production Work Header */}
     
-      <h1 className="text-6xl font-bold mb-15 text-left leading-snug px-8 tracking-wide mt-10">
+      <h1 className="text-[#F3EAE5] text-5xl font-bold mb-15 text-left leading-snug px-8 tracking-wide mt-10 ">
         Production Work</h1>
 
       {/* Images */}
-      <div className="columns-2 gap-40 w-240 h-auto mb-12 ml-10 text-2xl">
-        <div className="text-middle space-y-2">
-          <img src="/Chloe.jpg" alt="Chloe" className="float-none" />
-          <p className="text-2xl font-bold">TEA</p>
-        </div>
-
-        <div className="text-left space-y-2">
-          <img src="/Ashleigh-Ann.png" alt="Ashleigh-Ann" className="float-none" />
-          <p className="text-2xl font-medium">Ashleigh-Ann French</p>
+      <div className="flex gap-10 w-full ml-10 mb-30 text-2xl">
+        <div className="bg-[#222222] p-8 h-70 w-117 flex items-center justify-center">
+          <p className="font-bold text-center mt-92"> TEA </p>
         </div>
       </div>
     </main>

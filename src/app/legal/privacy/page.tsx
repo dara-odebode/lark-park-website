@@ -1,7 +1,7 @@
 'use client'
-
 import Image from 'next/image'
 import Link from "next/link";
+import { Footer7 } from "@/components/Footer7";
 import { usePathname } from "next/navigation";
 
 export default function HomePage() {
@@ -14,7 +14,7 @@ export default function HomePage() {
       <Link
         href={href}
         className={`relative pb-1 transition-colors duration-200 ${
-          isActive ? "text-[#F3EAE5]" : "text-[#F3EAE5] hover:text-[#77211F]"
+          isActive ? "text-[#F3EAE5]" : "text-[#F3EAE5] hover:text-[#191919]"
         }`}
       >
         {label}
@@ -26,7 +26,7 @@ export default function HomePage() {
   }
 
   return (
-    <main className="flex flex-col text-center px-9 bg-[#77211F]">
+    <main className="flex flex-col text-center px-9 bg-[#77211F] mb-1">
 
       {/* Navbar */}
       <nav className="w-full flex justify-between items-center px-5 py-6">
@@ -34,7 +34,7 @@ export default function HomePage() {
 
         {/* Logo image */}
           <Image 
-            src="/logo.png" 
+            src="/logo_white.png" 
             alt="Lark Park Theatre Logo" 
             width={160} 
             height={160} 
@@ -228,7 +228,6 @@ export default function HomePage() {
       Ashleigh-Ann at larkparktheatre@gmail.com <br/>
       If you are not satisfied with our response, you have the right to contact the ICO.
       </p>
-
     </main>
   )
 }

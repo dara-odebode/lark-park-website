@@ -40,7 +40,7 @@ const Footer7 = ({
 }: Footer7Props) => {
   return (
   
-      <section className="py-15 bg-[#77211F] pl-20 pr-10 text-[#F3EAE5] ml-9 mr-9">
+      <section className="py-15 bg-[#77211F] pl-20 pr-10 text-[#F3EAE5]">
         <div className="container mx-auto">
           {/* Main footer content */}
           <div className="flex w-full flex-col justify-between gap-10 lg:flex-row lg:items-start lg:text-left">
@@ -53,7 +53,7 @@ const Footer7 = ({
                       <li key={linkIdx}>
                         <a
                           href={link.href || "#"}
-                          className="hover:text-[#C64534] transition-colors"
+                          className="hover:font-medium transition-all"
                         >
                           {link.name}
                         </a>

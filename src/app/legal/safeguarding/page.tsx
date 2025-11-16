@@ -1,5 +1,5 @@
 'use client'
-
+import { Footer7 } from "@/components/Footer7";
 import Image from 'next/image'
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -12,27 +12,27 @@ export default function SafeguardingPage() {
     const isActive = pathname.startsWith(href);
     return (
       <Link
-        href={href}
-        className={`relative pb-1 transition-colors duration-200 ${
-          isActive ? "text-[#F3EAE5]" : "text-[#F3EAE5] hover:text-[#77211F]"
-        }`}
-      >
-        {label}
-        {isActive && (
-          <span className="absolute left-0 -bottom-1 w-full h-[3px] bg-[#C64534]"></span>
-        )}
-      </Link>
-    );
-  };
+      href={href}
+      className={`relative pb-1 transition-colors duration-200 ${
+        isActive ? "text-[#F3EAE5]" : "text-[#F3EAE5] hover:text-[#191919]"
+      }`}
+    >
+      {label}
+      {isActive && (
+        <span className="absolute left-0 -bottom-1 w-full h-[3px] bg-[#C64534]"></span>
+      )}
+    </Link>
+  )
+}
 
   return (
-    <main className="flex flex-col text-center px-9 bg-[#77211F]">
+    <main className="flex flex-col text-center px-9 bg-[#77211F] mb-0.5">
 
       {/* Navbar */}
       <nav className="w-full flex justify-between items-center px-5 py-6">
         <Link href="/" className="flex items-center space-x-3">
           <Image 
-            src="/logo.png" 
+            src="/logo_white.png" 
             alt="Lark Park Theatre Logo" 
             width={160} 
             height={160} 
