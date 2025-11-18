@@ -26,7 +26,7 @@ export default function HomePage() {
   }
 
   return (
-    <main className="flex flex-col text-center px-9">
+    <main className="flex flex-col text-center bg-[#F3EAE5] px-9">
 
       {/* Navbar */}
       <nav className="w-full flex justify-between items-center px-5 py-6">
@@ -123,7 +123,7 @@ export default function HomePage() {
         <div className="flex-shrink-0 self-start mt-[-92.5px] mr-auto -ml-[93px]">
           <Image 
             src="/bird.png" 
-            alt="bird image" 
+            alt="lark" 
             width={389} 
             height={400} 
             className="object-contain scale-x-100"/>

@@ -59,14 +59,14 @@ export default function HomePage() {
       {/* Images */}
       <div className="flex gap-80 w-full ml-10 text-2xl mb-30">
 
-  <div className="bg-[#222222] p-8 h-70 w-117 flex items-center justify-center">
-    <p className="font-bold text-center mt-92"> INTRODUCTION TO DEVISING FOR SOCIAL CHANGE </p>
-  </div>
+      <div className="bg-[#222222] p-8 h-70 w-117 flex items-center justify-center">
+        <p className="font-bold text-center mt-92"> INTRODUCTION TO DEVISING FOR SOCIAL CHANGE </p>
+      </div>
 
-  <div className="bg-[#222222] p-8 h-70 w-117 flex items-center justify-center">
-    <p className="font-bold text-center mt-92"> INTRODUCTION TO DEVISING AND CHARACTER CREATION </p>
-  </div>
-</div>
+      <div className="bg-[#222222] p-8 h-70 w-117 flex items-center justify-center">
+        <p className="font-bold text-center mt-92"> INTRODUCTION TO DEVISING AND CHARACTER CREATION </p>
+      </div>
+      </div>
 
 
       {/* Production Work Header */}
