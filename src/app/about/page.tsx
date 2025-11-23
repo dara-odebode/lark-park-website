@@ -30,9 +30,7 @@ export default function HomePage() {
 
       {/* Navbar */}
       <nav className="w-full flex justify-between items-center px-5 py-6">
-        <Link href="/" className="flex items-center space-x-3">
-
-        {/* Logo image */}
+        <Link href="/about" className="flex items-center space-x-3">
           <Image 
             src="/logo.png" 
             alt="Lark Park Theatre Logo" 
@@ -85,7 +83,6 @@ export default function HomePage() {
 
 
       {/*ABOUT SECTION */}
-
 
 
 
