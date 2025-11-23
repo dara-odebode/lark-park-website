@@ -4,6 +4,31 @@ import Image from 'next/image'
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
+  // Images
+  const ProjectCard = ({
+    img,
+    title,
+    href
+  }: {
+    img: string;
+    title: string;
+    href: string;
+  }) => {
+    return (
+      <Link href={href} className="block w-117">
+        {/* Images */}
+        <div className="relative h-70 w-117 overflow-hidden cursor-pointer">
+          <Image
+            src={img}
+            alt={title}
+            fill
+            className="object-cover"
+          />
+        </div>
+      </Link>
+    );
+  };
+
 export default function HomePage() {
   const pathname = usePathname();
 
@@ -54,14 +79,21 @@ export default function HomePage() {
       <h1 className="text-4xl text-[#F3EAE5] font-bold mt-15 text-left leading-snug px-8 tracking-wide">
       INTRODUCTION TO DEVISING FOR SOCIAL CHANGE</h1>
         <p className="ml-8 text-[#F3EAE5] text-left leading-relaxed mb-15">
-        2024 | _ Mins | English | Produced by _</p>
+        2025 | English | Delivered by Chloe Coombes and Ashleigh-Ann French</p>
 
     
       {/* FIRST SECTION */}
       <div className="flex w-full px-10 mt-10 mb-17 gap-10 text-left">
 
-        {/* box */}
-        <div className="bg-[#222222] h-80 w-150 flex-shrink-0"></div>
+        {/* image */}
+        <div className="relative h-80 w-150 flex-shrink-0 overflow-hidden">
+          <Image
+            src="/Introduction to Devising 2.jpg"
+            alt="Project"
+            fill
+            className="object-cover"
+          />
+        </div>
 
         {/* line */}
         <div className="w-[3px] bg-[#C64534]"></div>
@@ -83,15 +115,19 @@ export default function HomePage() {
       <h1 className="text-[#F3EAE5] text-4xl font-bold mb-15 text-left leading-snug px-8 tracking-wide">
         Behind the Scenes </h1>
 
-      {/* Images */}
-      <div className="flex gap-30 w-full ml-10 text-2xl mb-30">
+        <div className="flex gap-50 w-full ml-10 text-2xl mb-20">
 
-        <div className="bg-[#222222] p-8 h-65 w-130 flex items-center justify-center">
+      <ProjectCard
+        img="/Introduction to Devising 1.PNG"
+        title=""
+        href=""
+      />
 
-        </div>
-
-        <div className="bg-[#222222] p-8 h-65 w-130 flex items-center justify-center">
-        </div>
+      <ProjectCard
+        img="/Introduction to Devising 3.jpg"
+        title=""
+        href=""
+        />
       </div>
     </main>
   )

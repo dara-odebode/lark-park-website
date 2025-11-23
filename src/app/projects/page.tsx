@@ -22,7 +22,7 @@ const ProjectCard = ({
           src={img}
           alt={title}
           fill
-          className="object-cover transition-transform duration-500 hover:scale-110"
+          className="object-cover transition-transform duration-500 hover:scale-110" //zoom in on hover effect
         />
       </div>
 
