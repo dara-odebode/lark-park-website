@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useState } from "react";
 
 export default function HomePage() {
   const pathname = usePathname();
@@ -22,14 +23,54 @@ export default function HomePage() {
           <span className="absolute left-0 -bottom-1 w-full h-[3px] bg-[#C64534]"></span>
         )}
       </Link>
-    )
-  }
+    );
+  };
+
+  // legal dropdown
+  const LegalDropdown = () => {
+    const [open, setOpen] = useState(false);
+  
+    return (
+      <div
+        className="relative text-[#191919]"
+        onMouseEnter={() => setOpen(true)}
+        onMouseLeave={() => setOpen(false)}
+      >
+        {/* Main text */}
+        <button className="pb-1 hover:text-[#77211F] transition-colors duration-200">
+          Legal
+        </button>
+  
+        {open && (
+          <div
+            className="absolute right-0 bg-[#F3EAE5] border border-[#C64534] shadow-lg w-48"
+          >
+            <Link
+              href="/legal/safeguarding"
+              className="block px-4 py-2 text-left text-[#191919] hover:bg-[#C64534] hover:text-white"
+            >
+              Safeguarding Policy
+            </Link>
+  
+            <Link
+              href="/legal/privacy"
+              className="block px-4 py-2 text-left text-[#191919] hover:bg-[#C64534] hover:text-white"
+            >
+              Privacy Policy
+            </Link>
+          </div>
+        )}
+      </div>
+    );
+  };
 
   return (
     <main className="flex flex-col text-center bg-[#F3EAE5] px-9">
 
       {/* Navbar */}
       <nav className="w-full flex justify-between items-center px-5 py-6">
+        
+        {/* Logo */}
         <Link href="/about" className="flex items-center space-x-3">
           <Image 
             src="/logo.png" 
@@ -45,7 +86,7 @@ export default function HomePage() {
           <NavLink href="/about" label="About" />
           <NavLink href="/projects" label="Previous Projects" />
           <NavLink href="/contact" label="Contact" />
-          <NavLink href="/legal" label="Legal" />
+          <LegalDropdown />
         </div>
       </nav>
 

@@ -18,7 +18,7 @@ const defaultSections = [
   {
     title: "SOCIALS",
     links: [
-      { name: "Instagram: @larkparktheatre", href: "#" },
+      { name: "Instagram: @larkparktheatre", href: "https://www.instagram.com/larkparktheatre/" },
       { name: "Facebook: TBC", href: "#" },
       { name: "TikTok: TBC", href: "#" },
       { name: "LinkedIn: TBC", href: "#" },
@@ -27,8 +27,8 @@ const defaultSections = [
   {
     title: "LEGAL",
     links: [
-      { name: "Privacy Policy", href: "#" },
-      { name: "Safeguarding Policy", href: "#" },
+      { name: "Privacy Policy", href: "/legal/privacy" },
+      { name: "Safeguarding Policy", href: "/legal/safeguarding" },
     ],
   },
 ];
