@@ -32,7 +32,7 @@
         {/* Logo */}
         <Link href="/about" className="flex items-center space-x-3">
           <Image 
-            src="/logo.png"
+            src="/logo_white.png"
             alt="Lark Park Theatre Logo"
             width={160}
             height={160}
@@ -59,14 +59,14 @@
             {open && (
               <div className="absolute right-0 bg-[#F3EAE5] border border-[#C64534] shadow-lg w-48">
             <Link
-              href="/legal/safeguarding"
+              href="/legal/safeguarding-policy"
               className="block px-4 py-2 text-left text-[#191919] hover:bg-[#C64534] hover:text-white"
             >
               Safeguarding Policy
             </Link>
   
             <Link
-              href="/legal/privacy"
+              href="/legal/privacy-policy"
               className="block px-4 py-2 text-left text-[#191919] hover:bg-[#C64534] hover:text-white"
             >
               Privacy Policy

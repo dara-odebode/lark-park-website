@@ -32,7 +32,7 @@ const Navbar = () => {
       {/* Logo */}
       <Link href="/about" className="flex items-center space-x-3">
         <Image 
-          src="/logo.png"
+          src="/logo_white.png"
           alt="Lark Park Theatre Logo"
           width={160}
           height={160}

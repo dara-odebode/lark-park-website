@@ -32,7 +32,7 @@ const Navbar = () => {
       {/* Logo */}
       <Link href="/about" className="flex items-center space-x-3">
         <Image 
-          src="/logo.png"
+          src="/logo_white.png"
           alt="Lark Park Theatre Logo"
           width={160}
           height={160}
@@ -59,14 +59,14 @@ const Navbar = () => {
           {open && (
             <div className="absolute right-0 bg-[#F3EAE5] border border-[#C64534] shadow-lg w-48">
           <Link
-            href="/legal/safeguarding"
+            href="/legal/safeguarding-policy"
             className="block px-4 py-2 text-left text-[#191919] hover:bg-[#C64534] hover:text-white"
           >
             Safeguarding Policy
           </Link>
 
           <Link
-            href="/legal/privacy"
+            href="/legal/privacy-policy"
             className="block px-4 py-2 text-left text-[#191919] hover:bg-[#C64534] hover:text-white"
           >
             Privacy Policy
@@ -110,9 +110,9 @@ return (
 
     <ul className="text-[#F3EAE5] text-xl mt-4 underline tracking-wide space-y-3">
       <li><a href="https://www.instagram.com/larkparktheatre/" target="_blank">Instagram</a></li>
-      <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
-      <li><a href="https://tiktok.com" target="_blank">TikTok</a></li>
-      <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+      <li><a href="https://www.threads.com/@larkparktheatre" target="_blank">Threads</a></li>
+      <li><a href="https://www.tiktok.com/@larkparktheatre" target="_blank">TikTok</a></li>
+      <li><a href="https://www.linkedin.com/company/lark-park/" target="_blank">LinkedIn</a></li>
     </ul>
 
   </div>
@@ -120,7 +120,7 @@ return (
   {/* image*/}
   <section className="-mt-8 -mr-20">
     <Image
-      src="/larkBlack.png"
+      src="/orange_lark.png"
       alt="lark"
       width={590}
       height={600}

@@ -11,6 +11,17 @@ const hammersmith = Hammersmith_One({
   subsets: ["latin"],
 })
 
+  export const metadata = {
+    title: {
+    default: "Lark Park Theatre",
+    template: "%s | Lark Park Theatre",
+      },
+    icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+  }
+}
+
 const prompt = Prompt({
   weight: ["300", "400", "500", "600", "700"],
   subsets: ["latin"],

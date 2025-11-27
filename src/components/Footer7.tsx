@@ -13,15 +13,15 @@ interface Footer7Props {
 const defaultSections = [
   {
     title: "CONTACT US",
-    links: [{ name: "Email: Larkparktheatre@gmail.com" }],
+    links: [{ name: "Email: Larkparktheatre@gmail.com", href: "mailto:Larkparktheatre@gmail.com" }],
   },
   {
     title: "SOCIALS",
     links: [
-      { name: "Instagram: @larkparktheatre", href: "https://www.instagram.com/larkparktheatre/" },
-      { name: "Facebook: TBC", href: "#" },
-      { name: "TikTok: TBC", href: "#" },
-      { name: "LinkedIn: TBC", href: "#" },
+      { name: "Instagram: larkparktheatre", href: "https://www.instagram.com/larkparktheatre/" },
+      { name: "Threads: larkparktheatre", href: "https://www.threads.com/@larkparktheatre" },
+      { name: "TikTok: larkparktheatre", href: "https://www.tiktok.com/@larkparktheatre" },
+      { name: "LinkedIn: Lark Park", href: "https://www.linkedin.com/company/lark-park/" },
     ],
   },
   {

@@ -101,14 +101,14 @@ const Navbar = () => {
           {open && (
             <div className="absolute right-0 bg-[#F3EAE5] border border-[#C64534] shadow-lg w-48">
               <Link
-                href="/legal/safeguarding"
+                href="/legal/safeguarding-policy"
                 className="block px-4 py-2 text-[#191919] hover:bg-[#C64534] hover:text-white text-left"
               >
                 Safeguarding Policy
               </Link>
 
               <Link
-                href="/legal/privacy"
+                href="/legal/privacy-policy"
                 className="block px-4 py-2 text-[#191919] hover:bg-[#C64534] hover:text-white text-left"
               >
                 Privacy Policy
@@ -165,13 +165,13 @@ export default function HomePage() {
         <ProjectCard
           img="/Introduction to Devising 2.jpg"
           title="INTRODUCTION TO DEVISING FOR SOCIAL CHANGE"
-          href="/projects/Social_change"
+          href="/projects/social-change"
         />
 
         <ProjectCard
           img="/Character Creation Photo.jpg"
           title="INTRODUCTION TO DEVISING AND CHARACTER CREATION"
-          href="/projects/Character_creation"/>
+          href="/projects/character-creation"/>
 
       </div>
 
@@ -185,7 +185,7 @@ export default function HomePage() {
         <ProjectCard
           img="/Tea.jpg"
           title="TEA"
-          href="/projects/Tea"/>
+          href="/projects/tea"/>
       </div>
     </main>
   );
