@@ -8,30 +8,22 @@ import { useState } from "react";
 // project cards
 const ProjectCard = ({
   img,
-  title,
-  href
 }: {
   img: string;
-  title: string;
-  href: string;
 }) => {
   return (
-    <Link href={href} className="block w-117">
+    <div className="block w-117">
+
       {/* Images */}
       <div className="relative h-70 w-117 overflow-hidden cursor-pointer">
         <Image
           src={img}
-          alt={title}
+          alt="Project Images"
           fill
           className="object-cover transition-transform duration-500 hover:scale-110"
         />
       </div>
-
-      {/* Title */}
-      <p className="text-[#191919] font-bold text-xl text-center mt-4 leading-snug">
-        {title}
-      </p>
-    </Link>
+    </div>
   );
 };
 
@@ -197,8 +189,6 @@ export default function HomePage() {
 
       <ProjectCard
         img="/Tea.jpg"
-        title=""
-        href=""
       />
       </div>
     </main>

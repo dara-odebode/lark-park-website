@@ -66,7 +66,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            href="/legal/privacy"
+            href="/legal/privacy-policy"
             className="block px-4 py-2 text-left text-[#191919] hover:bg-[#C64534] hover:text-white"
           >
             Privacy Policy

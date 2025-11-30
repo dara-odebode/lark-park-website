@@ -81,11 +81,11 @@
 
 export default function Page() {
   return (
-    <main className="flex flex-col text-center px-9 bg-[#77211F] mb-0.5">
+    <main className="flex flex-col text-[#F3EAE5] text-center px-9 bg-[#77211F] mb-0.5">
  
       <Navbar />
 
-      {/* Page content */}
+      {/* main page */}
 
       {/* header */}
       <h1 className="text-5xl text-[#F3EAE5] font-bold text-left leading-snug px-8 mt-10 tracking-wide">
