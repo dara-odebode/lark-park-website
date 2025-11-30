@@ -183,7 +183,7 @@ export default function HomePage() {
       <div className="flex gap-10 w-full ml-10 mb-30 text-2xl">
 
         <ProjectCard
-          img="/Tea.jpg"
+          img="/tea.jpg"
           title="TEA"
           href="/projects/tea"/>
       </div>
