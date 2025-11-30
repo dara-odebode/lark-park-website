@@ -27,8 +27,8 @@ const defaultSections = [
   {
     title: "LEGAL",
     links: [
-      { name: "Privacy Policy", href: "/legal/privacy" },
-      { name: "Safeguarding Policy", href: "/legal/safeguarding" },
+      { name: "Privacy Policy", href: "/legal/privacy-policy" },
+      { name: "Safeguarding Policy", href: "/legal/safeguarding-policy" },
     ],
   },
 ];
