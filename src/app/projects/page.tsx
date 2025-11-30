@@ -176,7 +176,7 @@ export default function HomePage() {
       </div>
 
       {/* Production Work Header */}
-      <h1 className="text-[#F3EAE5] text-5xl font-bold mb-15 text-left leading-snug px-8 tracking-wide">
+      <h1 className="text-[#F3EAE5] text-5xl font-bold mb-14 text-left leading-snug px-8 tracking-wide">
         Production Work
       </h1>
 
