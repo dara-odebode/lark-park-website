@@ -158,7 +158,7 @@ export default function HomePage() {
         {/* image */}
         <div className="relative w-[372] h-[560] flex-shrink-0 overflow-hidden">
           <Image
-            src="/Tea poster.png"
+            src="/tea-poster.png"
             alt="Project"
             fill
             className="object-cover"
@@ -188,7 +188,7 @@ export default function HomePage() {
         <div className="flex gap-50 w-full ml-10 text-2xl mb-20">
 
       <ProjectCard
-        img="/Tea.jpg"
+        img="/tea-bts.jpg"
       />
       </div>
     </main>

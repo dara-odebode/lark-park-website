@@ -120,7 +120,7 @@ return (
   {/* image*/}
   <section className="-mt-8 -mr-20">
     <Image
-      src="/orange_lark.png"
+      src="/orange-lark.png"
       alt="lark"
       width={590}
       height={600}

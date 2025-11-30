@@ -167,8 +167,7 @@ export default function HomePage() {
             Writer, director, facilitator and represented actor. Performed with VML, CFI Media, UpYoursCo, and Deptford Lounge. Debut short film Get Nick Back was produced by CFI Media in 2024.
           </p>
         </div>
-
-</div>
+      </div>
 
       {/* Description section */}
       <div className="bg-[#77211F] p-8 mt-8 mb-20 flex flex-col md:flex-row items-start justify-between h-67">
