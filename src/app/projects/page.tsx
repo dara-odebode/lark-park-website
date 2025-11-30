@@ -149,7 +149,7 @@ export default function HomePage() {
     <main className="flex flex-col text-center px-9 bg-[#77211F] mb-0.5">
 
       {/* Navbar */}
-      <Navbar />
+      <Navbar / >
 
       {/* Community Projects Header */}
       <p className="ml-8 text-[#F3EAE5] text-left leading-relaxed mt-18">
@@ -176,14 +176,14 @@ export default function HomePage() {
       </div>
 
       {/* Production Work Header */}
-      <h1 className="text-[#F3EAE5] text-5xl font-bold mb-14 text-left leading-snug px-8 tracking-wide">
+      <h1 className="text-[#F3EAE5] text-5xl font-bold mb-15 text-left leading-snug px-8 tracking-wide">
         Production Work
       </h1>
 
       <div className="flex gap-10 w-full ml-10 mb-30 text-2xl">
 
         <ProjectCard
-          img="/tea.jpg"
+          img="/Tea.jpg"
           title="TEA"
           href="/projects/tea"/>
       </div>
