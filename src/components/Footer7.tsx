@@ -35,8 +35,6 @@ const defaultSections = [
 
 const Footer7 = ({
   sections = defaultSections,
-  copyright = "© 2025 LARK PARK THEATRE",
-  legalLinks = [],
 }: Footer7Props) => {
   return (
   

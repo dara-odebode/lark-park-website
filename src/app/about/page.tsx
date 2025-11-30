@@ -137,20 +137,38 @@ export default function HomePage() {
       <div className="columns-2 gap-70 w-240 h-auto mb-12 ml-60 text-2xl">
 
         <div className="text-center space-y-2">
-          <img src="/Chloe.jpg" alt="Chloe" className="float-none" />
+          <div className="relative w-full h-100"> 
+            <Image
+              src="/Chloe.jpg"
+              alt="Chloe"
+              fill
+              className="object-contain float-none"
+            />
+          </div>
           <p className="text-2xl font-medium">Chloe Coombes</p>
           <p className="italic font-normal">She/her</p>
-          <p className="text-sm font-medium">Writer, director, facilitator and performer. Debut play Tea was produced by UpYoursCo in 2024, Burnt Orange Theatre Company in 2023, and self-produced in 2023.</p>
+          <p className="text-sm font-medium">
+            Writer, director, facilitator and performer. Debut play Tea was produced by UpYoursCo in 2024, Burnt Orange Theatre Company in 2023, and self-produced in 2023.
+          </p>
         </div>
 
         <div className="text-center space-y-2">
-          <img src="/Ashleigh-Ann.png" alt="Ashleigh-Ann" className="float-none" />
+          <div className="relative w-full h-100">
+            <Image
+              src="/Ashleigh-Ann.png"
+              alt="Ashleigh-Ann"
+              fill
+              className="object-contain float-none"
+            />
+          </div>
           <p className="text-2xl font-medium">Ashleigh-Ann French</p>
           <p className="italic font-normal">She/her</p>
-          <p className="text-sm font-medium">Writer, director, facilitator and represented actor.
-            Performed with VML, CFI Media, UpYoursCo, and Deptford Lounge. Debut short film Get Nick Back was produced by CFI Media in 2024.</p>
+          <p className="text-sm font-medium">
+            Writer, director, facilitator and represented actor. Performed with VML, CFI Media, UpYoursCo, and Deptford Lounge. Debut short film Get Nick Back was produced by CFI Media in 2024.
+          </p>
         </div>
-      </div>
+
+</div>
 
       {/* Description section */}
       <div className="bg-[#77211F] p-8 mt-8 mb-20 flex flex-col md:flex-row items-start justify-between h-67">

@@ -140,7 +140,7 @@ export default function HomePage() {
     <main className="flex flex-col text-center px-9 bg-[#77211F] mb-0.5">
 
       {/* Navbar */}
-      <Navbar / >
+      <Navbar />
 
       {/* Header */}
      
