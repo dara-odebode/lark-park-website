@@ -83,7 +83,7 @@ const Footer7 = ({ sections = defaultSections }: Footer7Props) => {
             </div>
 
             {/* LOGO 2 */}
-            <div className="relative h-[200px] w-[110px]">
+            <div className="ml-2 relative h-[200px] w-[110px]">
               <Image
                 src="/gsa.png"
                 alt="Logo 2"
@@ -92,7 +92,7 @@ const Footer7 = ({ sections = defaultSections }: Footer7Props) => {
               />
             </div>
 
-            <p className="font-medium text-[#F3EAE5] text-xl tracking-wide">
+            <p className="ml-3 font-medium text-[#F3EAE5] text-xl tracking-wide">
               © 2025 LARK PARK THEATRE
             </p>
           </div>
