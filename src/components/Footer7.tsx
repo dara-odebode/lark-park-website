@@ -73,7 +73,7 @@ const Footer7 = ({ sections = defaultSections }: Footer7Props) => {
           <div className="flex items-center gap-85">
 
             {/* LOGO 1 */}
-            <div className="relative h-[200] w-[130px]">
+            <div className="ml-5 relative h-[200] w-[130px]">
               <Image
                 src="/footerLogo.png"
                 alt="Logo 1"
