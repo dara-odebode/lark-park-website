@@ -70,10 +70,10 @@ const Footer7 = ({ sections = defaultSections }: Footer7Props) => {
 
         {/* Footer bar */}
         <div className="border-t-2 border-[#C64534] mt-10 pt-6 flex flex-col md:flex-row justify-between items-center font-medium text-[#F3EAE5]">
-          <div className="flex items-center gap-80">
+          <div className="flex items-center gap-85">
 
             {/* LOGO 1 */}
-            <div className="relative h-[200] w-[140px]">
+            <div className="relative h-[200] w-[130px]">
               <Image
                 src="/footerLogo.png"
                 alt="Logo 1"
@@ -83,7 +83,7 @@ const Footer7 = ({ sections = defaultSections }: Footer7Props) => {
             </div>
 
             {/* LOGO 2 */}
-            <div className="relative h-[200px] w-[120px]">
+            <div className="relative h-[200px] w-[110px]">
               <Image
                 src="/gsa.png"
                 alt="Logo 2"
