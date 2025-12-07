@@ -47,7 +47,7 @@ const Footer7 = ({ sections = defaultSections }: Footer7Props) => {
 
         {/* Main footer content */}
         <div className="flex w-full flex-col justify-between gap-10 lg:flex-row lg:items-start lg:text-left">
-          <div className="grid w-full gap-6 md:grid-cols-3 lg:gap-20">
+          <div className="ml-10 grid w-full gap-6 md:grid-cols-3 lg:gap-20">
             {sections.map((section, sectionIdx) => (
               <div key={sectionIdx}>
                 <h3 className="mb-4 font-semibold text-lg">{section.title}</h3>
@@ -70,7 +70,7 @@ const Footer7 = ({ sections = defaultSections }: Footer7Props) => {
 
         {/* Footer bar */}
         <div className="border-t-2 border-[#C64534] mt-10 pt-6 flex flex-col md:flex-row justify-between items-center font-medium text-[#F3EAE5]">
-          <div className="flex items-center gap-85">
+          <div className="ml-10 flex items-center gap-80">
 
             {/* LOGO 1 */}
             <div className="ml-5 relative h-[200] w-[130px]">
