@@ -72,27 +72,27 @@ const Footer7 = ({ sections = defaultSections }: Footer7Props) => {
         <div className="border-t-2 border-[#C64534] mt-10 pt-6 flex flex-col md:flex-row justify-between items-center font-medium text-[#F3EAE5]">
           <div className="ml-10 flex items-center gap-80">
 
-            {/* LOGO 1 */}
+            {/* LARK LOGO 1 */}
             <div className="ml-5 relative h-[200] w-[130px]">
               <Image
                 src="/footerLogo.png"
-                alt="Logo 1"
+                alt="lark park logo"
                 fill
                 className="object-contain"
               />
             </div>
 
-            {/* LOGO 2 */}
-            <div className="ml-2 relative h-[200px] w-[110px]">
+            {/* GSA LOGO */}
+            <div className="ml-4 relative h-[200px] w-[110px]">
               <Image
                 src="/gsa.png"
-                alt="Logo 2"
+                alt="gsa logo"
                 fill
                 className="object-contain"
               />
             </div>
 
-            <p className="ml-3 font-medium text-[#F3EAE5] text-xl tracking-wide">
+            <p className="ml-1 font-medium text-[#F3EAE5] text-xl tracking-wide">
               © 2025 LARK PARK THEATRE
             </p>
           </div>

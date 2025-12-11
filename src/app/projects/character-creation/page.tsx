@@ -160,8 +160,8 @@ export default function HomePage() {
         2025 | English | Delivered by Chloe Coombes and Ashleigh-Ann French </p>
 
     
-      {/* FIRST SECTION */}
-      <div className="flex w-full px-10 mt-10 mb-25 gap-10 text-left">
+      {/* MAIN SECTION */}
+      <div className="flex w-full px-10 mt-6 mb-25 gap-10 text-left">
 
         {/* image */}
         <div className="relative h-80 w-150 flex-shrink-0 overflow-hidden">
@@ -179,11 +179,11 @@ export default function HomePage() {
         {/* text */}
         <div className="max-w-xl leading-relaxed">
           <p className="text-[#F3EAE5]">
-          An applied theatre workshop for college students studying performing arts in association with Guildford School of Acting.
+          Across a day at Oriel High School in Crawley, we delivered four drama-based workshops for separate groups of year 8/9 students in association with Guildford School of Acting.
           </p>
           <br/>
           <p className="text-[#F3EAE5]">
-          Using a variety of improvisation drama games to encourage comfortability with devising quickly, we worked collaboratively with the group of young people to look at the pros and cons of social media. In groups, the students created a scene for their opposing viewpoints on social media and performed their short scenes to the group. This one hour and a half workshop encouraged critical thinking, creativity, and empathy for other people’s points of view. 
+          Through a variety of drama games and applied theatre exercises, we collaboratively created a character, and students were encouraged to devise a scene using that character. Groups were then encouraged to share their devised scenes which included conflict and resolution to the group.
           </p>
         </div>
       </div>

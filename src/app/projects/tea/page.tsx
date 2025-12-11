@@ -152,8 +152,8 @@ export default function HomePage() {
         2023 | English | Produced by Chloe Coombes </p>
 
     
-      {/* FIRST SECTION */}
-      <div className="flex w-full px-10 mt-10 mb-17 gap-10 text-left">
+      {/* MAIN SECTION */}
+      <div className="flex w-full px-10 mt-6 mb-17 gap-10 text-left">
 
         {/* image */}
         <div className="relative w-[372] h-[560] flex-shrink-0 overflow-hidden">
@@ -171,11 +171,26 @@ export default function HomePage() {
         {/* text */}
         <div className="max-w-xl leading-relaxed">
           <p className="text-[#F3EAE5]">
-          An applied theatre workshop for college students studying performing arts in association with Guildford School of Acting.
+          Tea is a one act play about loss, lies and power. Set in the counselling sessions student Millie has with Miss P, Tea explores their weekly conversations after the suicide of Millie's best friend Pip. Miss P battles to increase the college's funding of wellbeing while she battles with her own inner conflicts.
           </p>
           <br/>
           <p className="text-[#F3EAE5]">
-          Using a variety of improvisation drama games to encourage comfortability with devising quickly, we worked collaboratively with the group of young people to look at the pros and cons of social media. In groups, the students created a scene for their opposing viewpoints on social media and performed their short scenes to the group. This one hour and a half workshop encouraged critical thinking, creativity, and empathy for other people’s points of view. 
+          Written by Chloe Coombes, Tea is a drama which explores mental health, addiction and workplace misogyny.
+          </p>
+          <br/>
+          <p className="text-[#F3EAE5]">
+          Tea was first performed for a one-off performance at The Green Room, University of Surrey in March 2023. The sold out performance received positive feedback from audience members and was later produced by other companies such as Burnt Orange Theatre Company in 2023, and UpYoursCo in 2024. 
+          </p>
+
+          {/* Reviews */}
+
+          <br/>
+          <p className="text-[#F3EAE5] italic rounded-b-xs bg-white/17 px-3 py-0.3 text-5m/6">
+          “An absolutely amazing performance by all the cast. Very powerful.”
+          </p>
+          <br/>
+          <p className="text-[#F3EAE5] italic rounded-b-xs bg-white/17 px-3 py-0.3 text-5m/6">
+          “I believed in the characters, the script was realistic and really relatable. I like the hard hitting themes and there was clearly research done on some of the language used and facts around the education system. The venue was great.”
           </p>
         </div>
       </div>

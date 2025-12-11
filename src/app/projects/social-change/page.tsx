@@ -150,8 +150,8 @@ export default function HomePage() {
         2025 | English | Delivered by Chloe Coombes and Ashleigh-Ann French</p>
 
     
-      {/* FIRST SECTION */}
-      <div className="flex w-full px-10 mt-10 mb-17 gap-10 text-left">
+      {/* MAIN SECTION */}
+      <div className="flex w-full px-10 mt-6 mb-17 gap-10 text-left">
 
         {/* image */}
         <div className="relative h-80 w-150 flex-shrink-0 overflow-hidden">
