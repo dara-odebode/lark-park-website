@@ -152,7 +152,8 @@ export default function HomePage() {
 
     
       {/* MAIN SECTION */}
-      <div className="flex w-full px-10 mt-6 mb-17 gap-10 text-left">
+      <div className="flex flex-col md:flex-row w-full px-4 md:px-10 mt-6 mb-17 gap-6 md:gap-10 text-left">
+
 
         {/* image */}
         <div className="relative w-full md:w-[372px] h-80 md:h-[560px] flex-shrink-0 overflow-hidden">
@@ -160,7 +161,7 @@ export default function HomePage() {
             src="/tea-poster.png"
             alt="Project"
             fill
-            className="object-cover"
+            className="object-contain"
           />
         </div>
 
