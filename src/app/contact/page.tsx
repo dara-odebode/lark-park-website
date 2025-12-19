@@ -85,30 +85,32 @@ return (
 
     <Navbar />
 
-     {/* Header */}
-      <h1 className="text-[#F3EAE5] px-40 text-5xl ml-5 font-bold mt-20 text-left leading-snug">Contact Us</h1>
+{/* Header */}
+<h1 className="text-[#F3EAE5] px-4 md:px-40 text-3xl md:text-5xl font-bold mt-16 md:mt-20 text-left leading-snug">
+  Contact Us
+</h1>
 
-    {/* text and image */}
-    <div className="flex px-40 gap-10 items-start -mb-23">
+{/* text and image */}
+<div className="flex flex-col md:flex-row px-4 md:px-40 gap-10 items-start -mb-26">
 
-    {/*  text */}
-    <div className="flex-1 ml-5 text-left">
+  {/* text */}
+  <div className="flex-1 text-left">
 
-    <p className="text-[#F3EAE5] text-3xl font-medium mt-14">
+    <p className="text-[#F3EAE5] text-xl md:text-3xl font-medium mt-8">
       For project inquiries, please email:
     </p>
 
-    <p className="text-[#F3EAE5] text-xl underline mt-3">
+    <p className="text-[#F3EAE5] text-lg md:text-xl underline mt-3 break-all">
       <a href="mailto:Larkparktheatre@gmail.com">
         Larkparktheatre@gmail.com
       </a>
     </p>
 
-    <p className="text-[#F3EAE5] text-3xl font-medium mt-10">
+    <p className="text-[#F3EAE5] text-xl md:text-3xl font-medium mt-10">
       Catch us on our socials:
     </p>
 
-    <ul className="text-[#F3EAE5] text-xl mt-4 underline tracking-wide space-y-3">
+    <ul className="text-[#F3EAE5] text-lg md:text-xl mt-4 underline tracking-wide space-y-3">
       <li><a href="https://www.instagram.com/larkparktheatre/" target="_blank">Instagram</a></li>
       <li><a href="https://www.threads.com/@larkparktheatre" target="_blank">Threads</a></li>
       <li><a href="https://www.tiktok.com/@larkparktheatre" target="_blank">TikTok</a></li>
@@ -117,18 +119,19 @@ return (
 
   </div>
 
-  {/* image*/}
-  <section className="-mt-8 -mr-20">
+    {/* image */}
+  <div className="w-full md:w-[600px] lg:w-[720px] relative md:-mt-30">
     <Image
       src="/orange_lark.png"
-      alt="lark"
-      width={590}
-      height={600}
-      className="scale-x-[-1]"
+      alt="Lark illustration"
+      width={700}
+      height={700}
+      className="scale-x-[-1] mx-auto"
+      priority
     />
-  </section>
-</div>
+  </div>
 
+</div>
     </main>
   );
 }
