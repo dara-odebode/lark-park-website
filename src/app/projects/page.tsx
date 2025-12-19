@@ -16,9 +16,9 @@ const ProjectCard = ({
   href: string;
 }) => {
   return (
-    <Link href={href} className="block w-117">
+    <Link href={href} className="block w-full max-w-md md:w-117">
       {/* Images */}
-      <div className="relative h-70 w-117 overflow-hidden cursor-pointer">
+      <div className="relative aspect-[4/3] w-full overflow-hidden">
         <Image
           src={img}
           alt={title}
@@ -160,7 +160,7 @@ export default function HomePage() {
         Community Projects
       </h1>
 
-      <div className="flex gap-80 w-full ml-10 text-2xl mb-20">
+      <div className="flex flex-col md:flex-row gap-12 md:gap-20 w-full mb-20 px-4 md:px-10">
 
         <ProjectCard
           img="/Introduction to Devising 2.jpg"
@@ -180,8 +180,7 @@ export default function HomePage() {
         Production Work
       </h1>
 
-      <div className="flex gap-10 w-full ml-10 mb-30 text-2xl">
-
+      <div className="flex flex-col md:flex-row gap-12 w-full mb-30 px-4 md:px-10 justify-start">
         <ProjectCard
           img="/tea-bts.jpg"
           title="TEA"
