@@ -12,10 +12,9 @@ const ProjectCard = ({
   img: string;
 }) => {
   return (
-    <div className="block w-117">
-
-      {/* Images */}
-      <div className="relative h-70 w-117 overflow-hidden cursor-pointer">
+<div className="block w-full max-w-md">
+  {/* Images */}
+  <div className="relative h-56 md:h-70 w-full overflow-hidden">
         <Image
           src={img}
           alt="Project Images"
@@ -139,16 +138,16 @@ export default function HomePage() {
   };
 
   return (
-    <main className="flex flex-col text-center px-9 bg-[#77211F] mb-0.5">
+    <main className="flex flex-col text-center px-4 md:px-9 bg-[#77211F] mb-0.5">
 
       {/* Navbar */}
       <Navbar />
 
       {/* Header */}
      
-      <h1 className="text-4xl text-[#F3EAE5] font-bold mt-15 text-left leading-snug px-8 tracking-wide">
+      <h1 className="text-[#F3EAE5] text-3xl md:text-5xl font-bold mt-10 md:mt-15 text-left leading-snug px-4 md:px-8 tracking-wide">
       TEA </h1>
-        <p className="ml-8 text-[#F3EAE5] text-left leading-relaxed mb-15">
+      <p className="px-4 md:ml-8 md:px-0 text-[#F3EAE5] text-left leading-relaxed mb-8 md:mb-15">
         2023 | English | Produced by Chloe Coombes </p>
 
     
@@ -156,7 +155,7 @@ export default function HomePage() {
       <div className="flex w-full px-10 mt-6 mb-17 gap-10 text-left">
 
         {/* image */}
-        <div className="relative w-[372] h-[560] flex-shrink-0 overflow-hidden">
+        <div className="relative w-full md:w-[372px] h-80 md:h-[560px] flex-shrink-0 overflow-hidden">
           <Image
             src="/tea-poster.png"
             alt="Project"
@@ -166,7 +165,7 @@ export default function HomePage() {
         </div>
 
         {/* line */}
-        <div className="w-[3px] bg-[#C64534]"></div>
+        <div className="hidden md:block w-[3px] bg-[#C64534]"></div>
 
         {/* text */}
         <div className="max-w-xl leading-relaxed">
@@ -185,11 +184,12 @@ export default function HomePage() {
           {/* Reviews */}
 
           <br/>
-          <p className="text-[#F3EAE5] italic rounded-b-xs bg-white/17 px-3 py-0.3 text-5m/6">
+          <p className="text-[#F3EAE5] italic rounded bg-white/17 px-3 py-2 text-sm md:text-base">
+
           “An absolutely amazing performance by all the cast. Very powerful.”
           </p>
           <br/>
-          <p className="text-[#F3EAE5] italic rounded-b-xs bg-white/17 px-3 py-0.3 text-5m/6">
+          <p className="text-[#F3EAE5] italic rounded bg-white/17 px-3 py-2 text-sm md:text-base">
           “I believed in the characters, the script was realistic and really relatable. I like the hard hitting themes and there was clearly research done on some of the language used and facts around the education system. The venue was great.”
           </p>
         </div>
@@ -200,7 +200,7 @@ export default function HomePage() {
       <h1 className="text-[#F3EAE5] text-4xl font-bold mb-15 text-left leading-snug px-8 tracking-wide">
         Behind the Scenes </h1>
 
-        <div className="flex gap-50 w-full ml-10 text-2xl mb-20">
+        <div className=" flex flex-col md:flex-row gap-6 md:gap-12 w-full px-4 md:px-10 md:ml0 items-center md:items-start mb-20">
 
       <ProjectCard
         img="/tea-bts.jpg"
