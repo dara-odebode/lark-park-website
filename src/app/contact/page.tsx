@@ -120,7 +120,7 @@ return (
   </div>
 
     {/* image */}
-  <div className="hidden md:block md:w-[600px] lg:w-[720px] relative md:-mt-30 mb-100 md:mb-0">
+  <div className="hidden md:block md:w-[600px] lg:w-[720px] relative md:-mt-30 mb-70 md:mb-0">
     <Image
       src="/orange_lark.png"
       alt="Lark illustration"
