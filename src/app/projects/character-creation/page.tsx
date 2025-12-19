@@ -154,9 +154,9 @@ export default function HomePage() {
 
       {/* Header */}
      
-      <h1 className="text-2xl md:text-4xl text-[#F3EAE5] font-bold mt-10 md:mt-15 mb-5 md:mb-0 text-left leading-snug px-4 md:px-8 tracking-wide">
+      <h1 className="text-2xl md:text-4xl text-[#F3EAE5] font-bold mt-10 md:mt-15 mb-6 md:mb-0 text-left leading-snug px-4 md:px-8 tracking-wide">
       INTRODUCTION TO DEVISING FOR CHARACTER CREATION</h1>
-      <p className="ml-0 md:ml-8 px-4 md:px-0 text-[#F3EAE5] text-left leading-relaxed mb-10 md:mb-15">
+      <p className="ml-0 md:ml-8 px-4 md:px-0 text-[#F3EAE5] text-left leading-relaxed mb-6 md:mb-15">
         2025 | English | Delivered by Chloe Coombes and Ashleigh-Ann French </p>
 
     
