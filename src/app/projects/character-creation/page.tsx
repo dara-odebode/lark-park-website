@@ -161,7 +161,7 @@ export default function HomePage() {
 
     
       {/* MAIN SECTION */}
-      <div className="flex flex-col md:flex-row w-full px-4 md:px-10 mt-6 mb-25 gap-10 text-left">
+      <div className="flex flex-col md:flex-row w-full px-4 md:px-10 mt-6 mb-20 gap-10 text-left">
 
         {/* image */}
         <div className="relative w-full md:w-150 h-45 md:h-80 flex-shrink-0 overflow-hidden">

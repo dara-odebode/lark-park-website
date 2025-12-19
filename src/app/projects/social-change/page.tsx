@@ -180,10 +180,10 @@ export default function HomePage() {
       
       {/* BEHIND THE SCENES */}
     
-      <h1 className="text-[#F3EAE5] text-4xl font-bold mt-0 md:mt-0 mb-4 md:mb-15 text-left leading-snug px-8 tracking-wide">
+      <h1 className="text-[#F3EAE5] text-4xl font-bold -mt-5 md:mt-0 mb-8 md:mb-15 text-left leading-snug px-8 tracking-wide">
         Behind the Scenes </h1>
 
-      <div className="flex flex-col md:flex-row gap-6 md:gap-50 w-full px-4 md:ml-5 text-2xl mb-30 md:mb-20">
+      <div className="flex flex-col md:flex-row gap-6 md:gap-50 w-full px-4 md:ml-5 text-2xl mb-25 md:mb-20">
 
       <ProjectCard
         img="/Introduction to Devising 1.PNG"
