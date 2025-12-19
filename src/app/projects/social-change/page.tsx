@@ -12,7 +12,7 @@ const ProjectCard = ({
   img: string;
 }) => {
   return (
-    
+
 <div className="block w-full md:w-117">
   <div className="relative h-56 md:h-70 w-full overflow-hidden">
 
@@ -146,7 +146,7 @@ export default function HomePage() {
      
       <h1 className="text-2xl md:text-4xl text-[#F3EAE5] font-bold mt-10 md:mt-15 text-left leading-snug px-4 md:px-8 tracking-wide">
       INTRODUCTION TO DEVISING FOR SOCIAL CHANGE</h1>
-      <p className="ml-0 md:ml-8 px-4 md:px-0 text-[#F3EAE5] text-left leading-relaxed mb-10 md:mb-15">
+      <p className="ml-0 md:ml-8 px-4 md:px-0 text-[#F3EAE5] text-left leading-relaxed mt-6 md:mt-0 mb-6 md:mb-15">
         2025 | English | Delivered by Chloe Coombes and Ashleigh-Ann French</p>
 
     
@@ -154,7 +154,7 @@ export default function HomePage() {
       <div className="flex flex-col md:flex-row w-full px-4 md:px-10 mt-6 mb-17 gap-8 md:gap-10 text-left">
 
         {/* image */}
-        <div className="relative w-full md:w-150 h-64 md:h-80 flex-shrink-0 overflow-hidden">
+        <div className="relative w-full md:w-150 h-45 md:h-80 flex-shrink-0 overflow-hidden">
           <Image
             src="/Introduction to Devising 2.jpg"
             alt="Project"
@@ -183,7 +183,7 @@ export default function HomePage() {
       <h1 className="text-[#F3EAE5] text-4xl font-bold mb-15 text-left leading-snug px-8 tracking-wide">
         Behind the Scenes </h1>
 
-      <div className="flex flex-col md:flex-row gap-6 md:gap-50 w-full px-4 md:ml-10 text-2xl mb-20">
+      <div className="flex flex-col md:flex-row gap-6 h-45 md:h-67 md:gap-50 w-full px-4 md:ml-10 text-2xl mb-20">
 
       <ProjectCard
         img="/Introduction to Devising 1.PNG"
