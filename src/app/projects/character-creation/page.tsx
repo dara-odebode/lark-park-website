@@ -154,17 +154,17 @@ export default function HomePage() {
 
       {/* Header */}
      
-      <h1 className="text-4xl text-[#F3EAE5] font-bold mt-15 text-left leading-snug px-8 tracking-wide">
+      <h1 className="text-2xl md:text-4xl text-[#F3EAE5] font-bold mt-10 md:mt-15 text-left leading-snug px-4 md:px-8 tracking-wide">
       INTRODUCTION TO DEVISING FOR CHARACTER CREATION</h1>
-        <p className="ml-8 text-[#F3EAE5] text-left leading-relaxed mb-15">
+      <p className="ml-0 md:ml-8 px-4 md:px-0 text-[#F3EAE5] text-left leading-relaxed mb-10 md:mb-15">
         2025 | English | Delivered by Chloe Coombes and Ashleigh-Ann French </p>
 
     
       {/* MAIN SECTION */}
-      <div className="flex w-full px-10 mt-6 mb-25 gap-10 text-left">
+      <div className="flex flex-col md:flex-row w-full px-4 md:px-10 mt-6 mb-25 gap-10 text-left">
 
         {/* image */}
-        <div className="relative h-80 w-150 flex-shrink-0 overflow-hidden">
+        <div className="relative w-full md:w-150 h-64 md:h-80 flex-shrink-0 overflow-hidden">
           <Image
             src="/Character Creation Photo.jpg"
             alt="Project"
@@ -174,7 +174,7 @@ export default function HomePage() {
         </div>
 
         {/* line */}
-        <div className="w-[3px] bg-[#C64534]"></div>
+        <div className="hidden md:block w-[3px] bg-[#C64534]"></div>
 
         {/* text */}
         <div className="max-w-xl leading-relaxed">
