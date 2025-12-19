@@ -131,7 +131,7 @@ return (
     />
   </div>
 
-  <div className="mb-47 md:mb-0">
+  <div className="mb-30 md:mb-0">
 </div>
 
 </div>
