@@ -14,7 +14,7 @@ const ProjectCard = ({
   return (
 
 <div className="block w-full md:w-117">
-  <div className="relative h-56 md:h-70 w-full overflow-hidden">
+  <div className="relative h-45 md:h-70 w-full overflow-hidden">
 
         <Image
           src={img}
@@ -180,10 +180,10 @@ export default function HomePage() {
       
       {/* BEHIND THE SCENES */}
     
-      <h1 className="text-[#F3EAE5] text-4xl font-bold mt-2 md:mt-0 mb-5 md:mb-15 text-left leading-snug px-8 tracking-wide">
+      <h1 className="text-[#F3EAE5] text-4xl font-bold mt-0 md:mt-0 mb-4 md:mb-15 text-left leading-snug px-8 tracking-wide">
         Behind the Scenes </h1>
 
-      <div className="flex flex-col md:flex-row gap-6 h-30 md:h-67 md:gap-50 w-full px-4 md:ml-5 text-2xl mb-40 md:mb-20">
+      <div className="flex flex-col md:flex-row gap-6 md:gap-50 w-full px-4 md:ml-5 text-2xl mb-30 md:mb-20">
 
       <ProjectCard
         img="/Introduction to Devising 1.PNG"
