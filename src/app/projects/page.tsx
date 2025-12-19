@@ -18,7 +18,7 @@ const ProjectCard = ({
   return (
     <Link href={href} className="block w-full max-w-md md:w-117">
       {/* Images */}
-      <div className="relative aspect-[4/3] w-full overflow-hidden">
+      <div className="relative h-67 aspect-[4/3] w-full overflow-hidden">
         <Image
           src={img}
           alt={title}
