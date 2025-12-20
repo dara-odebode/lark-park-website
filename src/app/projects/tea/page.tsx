@@ -198,7 +198,7 @@ export default function HomePage() {
       
       {/* BEHIND THE SCENES */}
     
-      <h1 className="text-[#F3EAE5] -ml-4 md:ml-0  -mt-3 md:mt-0 text-4xl font-bold -mb-3 md:mb-15 text-left leading-snug px-8 tracking-wide">
+      <h1 className="text-[#F3EAE5] -ml-4 md:ml-0  -mt-3 md:mt-0 text-4xl font-bold mb-0 md:mb-15 text-left leading-snug px-8 tracking-wide">
         Behind the Scenes </h1>
 
         <div className=" flex flex-col md:flex-row gap-6 md:gap-12 w-full px-4 md:px-10 md:ml0 items-center md:items-start mb-20">
