@@ -98,7 +98,7 @@ export default function HomePage() {
       </h1>
         
       {/* Description section */}
-      <div className="bg-[#77211F] p-6 md:p-8 mt-8 pb-24 flex flex-col h-90 md:h-69 md:flex-row items-center md:items-start justify-between gap-6">
+      <div className="bg-[#77211F] p-6 md:p-8 mt-8 pb-24 flex flex-col min-h-[600px] md:min-h-67 md:h-69 md:flex-row items-center md:items-start justify-between gap-6">
 
         {/* Text section */}
         <div className="flex-1 flex flex-col tracking-wide text-center md:text-left-center ml-0 md:ml-22 mt-0 md:mt-4">
