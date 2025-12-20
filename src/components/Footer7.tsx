@@ -42,12 +42,12 @@ const defaultSections = [
 
 const Footer7 = ({ sections = defaultSections }: Footer7Props) => {
   return (
-    <section className="py-15 bg-[#77211F] pl-20 pr-10 text-[#F3EAE5]">
+    <section className="py-10 md:py-15 bg-[#77211F] px-6 md:px-20 text-[#F3EAE5]">
       <div className="container mx-auto">
 
         {/* Main footer content */}
         <div className="flex w-full flex-col justify-between gap-10 lg:flex-row lg:items-start lg:text-left">
-          <div className="ml-10 grid w-full gap-6 md:grid-cols-3 lg:gap-20">
+        <div className="grid w-full gap-8 md:grid-cols-3 lg:gap-20">
             {sections.map((section, sectionIdx) => (
               <div key={sectionIdx}>
                 <h3 className="mb-4 font-semibold text-lg">{section.title}</h3>
@@ -70,10 +70,10 @@ const Footer7 = ({ sections = defaultSections }: Footer7Props) => {
 
         {/* Footer bar */}
         <div className="border-t-2 border-[#C64534] mt-10 pt-6 flex flex-col md:flex-row justify-between items-center font-medium text-[#F3EAE5]">
-          <div className="ml-10 flex items-center gap-80">
+        <div className="flex flex-col md:flex-row items-center gap-6 md:gap-85">
 
             {/* LARK LOGO 1 */}
-            <div className="ml-5 relative h-[200] w-[130px]">
+            <div className="relative h-[80px] w-[120px] md:h-[120px] md:w-[130px]">
               <Image
                 src="/footerLogo.png"
                 alt="lark park logo"
@@ -83,7 +83,7 @@ const Footer7 = ({ sections = defaultSections }: Footer7Props) => {
             </div>
 
             {/* GSA LOGO */}
-            <div className="ml-6 relative h-[200px] w-[110px]">
+            <div className="relative h-[80px] w-[100px] md:h-[120px] md:w-[110px]">
               <Image
                 src="/gsa.png"
                 alt="gsa logo"
@@ -92,7 +92,7 @@ const Footer7 = ({ sections = defaultSections }: Footer7Props) => {
               />
             </div>
 
-            <p className="-ml-4 font-medium text-[#F3EAE5] text-xl tracking-wide">
+            <p className=" text-amber-50 text-sm md:text-xl font-medium tracking-wide text-center md:text-left">
               © 2025 LARK PARK THEATRE
             </p>
           </div>
