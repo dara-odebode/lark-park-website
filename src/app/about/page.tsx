@@ -171,7 +171,7 @@ export default function HomePage() {
       </div>
 
       {/* Description section */}
-      <div className="bg-[#77211F] p-6 md:p-8 h-67.5 mt-8 mb-20 flex flex-col md:flex-row items-center gap-6">
+      <div className="bg-[#77211F] p-6 md:p-8 min-h-[500px] md:min-h-67 md:h-67.5 mt-8 mb-20 flex flex-col md:flex-row items-center gap-6">
 
         {/* Bird image */}
         <div className="hidden md:block flex-shrink-0 self-start -mt-[92px] -ml-[93px]">
