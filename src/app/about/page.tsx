@@ -101,7 +101,7 @@ export default function HomePage() {
       <div className="bg-[#77211F] p-6 md:p-8 mt-8 pb-24 flex flex-col min-h-[530px] md:min-h-67 md:h-69 md:flex-row items-center md:items-start justify-between gap-6">
 
         {/* Text section */}
-        <div className="flex-1 flex flex-col tracking-wide text-center md:text-left-center ml-0 md:ml-22 mt-0 md:mt-4">
+        <div className="flex-1 flex flex-col tracking-wide text-center md:text-left-center ml-0 md:ml-22 mt-10 md:mt-4">
           <p className="max-w-3xl text-[#F3EAE5] leading-8">
             Lark Park Theatre specialise in bringing theatre to communities through thought-provoking, engaging, and exciting workshops. With a focus on collaborative devising, Lark Park facilitates the creation of stories most relevant to the people they work with.
           </p>
@@ -123,8 +123,8 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/*ABOUT SECTION */}
 
+      {/*ABOUT SECTION */}
 
       {/* Header */}
       <div className="mb-15 md:mb-20">
