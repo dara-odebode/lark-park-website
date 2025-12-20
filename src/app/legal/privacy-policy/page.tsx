@@ -27,7 +27,7 @@
     };
 
     return (
-      <nav className="w-full flex justify-between items-center px-5 py-6">
+      <nav className="w-full flex flex-col md:flex-row justify-between items-center px-5 py-6 gap-4">
 
         {/* Logo */}
         <Link href="/about" className="flex items-center space-x-3">
