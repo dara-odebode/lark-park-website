@@ -128,7 +128,7 @@ export default function HomePage() {
 
       {/* Header */}
       <div className="mb-20">
-      <p className="ml-8 text-[#C64534] font-light text-left leading-relaxed mt-38">
+      <p className="ml-8 text-[#C64534] font-light text-left leading-relaxed mt-28 md:mt-38">
         ABOUT US</p>
       <h1 className="text-6xl font-bold text-left leading-snug px-8 tracking-wide">
         WHO WE ARE</h1>
