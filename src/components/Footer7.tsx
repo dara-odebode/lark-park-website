@@ -46,8 +46,8 @@ const Footer7 = ({ sections = defaultSections }: Footer7Props) => {
       <div className="container mx-auto">
 
         {/* Main footer content */}
-        <div className="flex w-full flex-col justify-between gap-10 lg:flex-row items-center lg:items-start lg:text-left">
-        <div className="grid w-full gap-8 md:grid-cols-3 lg:gap-20">
+        <div className="flex w-full flex-col justify-between gap-10 lg:flex-row lg:items-start lg:text-left">
+        <div className="grid w-full gap-8 md:grid-cols-3 lg:gap-20 text-center md:text-left justify-items-center md:justify-items-start">
             {sections.map((section, sectionIdx) => (
               <div key={sectionIdx}>
                 <h3 className="mb-4 font-semibold text-lg">{section.title}</h3>
