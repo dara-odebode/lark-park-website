@@ -81,7 +81,7 @@ const Navbar = () => {
 
 export default function Page() {
 return (
-  <main className="flex flex-col text-center px-9 bg-[#77211F] mb-0.5">
+  <main className=" -ml-6 md:ml-0 flex flex-col text-center px-9 bg-[#77211F] mb-0.5">
 
     <Navbar />
 
