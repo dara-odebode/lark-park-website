@@ -91,7 +91,7 @@ return (
 </h1>
 
 {/* text and image */}
-<div className="flex flex-col md:flex-row px-4 md:px-40 gap-10 items-start -mb-26">
+<div className="flex flex-col md:flex-row px-4 md:px-40 gap-0 md:gap-6 items-start -mb-26">
 
   {/* text */}
   <div className="flex-1 text-left">
@@ -102,7 +102,7 @@ return (
 
     <p className="text-[#F3EAE5] text-lg md:text-xl underline mt-3 break-all">
       <a href="mailto:Larkparktheatre@gmail.com">
-        Larkparktheatre@gmail.com
+        larkparktheatre@gmail.com
       </a>
     </p>
 

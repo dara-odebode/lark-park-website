@@ -25,9 +25,9 @@ const defaultSections = [
   {
     title: "SOCIALS",
     links: [
-      { name: "Instagram: larkparktheatre", href: "https://www.instagram.com/larkparktheatre/" },
-      { name: "Threads: larkparktheatre", href: "https://www.threads.com/@larkparktheatre" },
-      { name: "TikTok: larkparktheatre", href: "https://www.tiktok.com/@larkparktheatre" },
+      { name: "Instagram: @larkparktheatre", href: "https://www.instagram.com/larkparktheatre/" },
+      { name: "Threads: @larkparktheatre", href: "https://www.threads.com/@larkparktheatre" },
+      { name: "TikTok: @larkparktheatre", href: "https://www.tiktok.com/@larkparktheatre" },
       { name: "LinkedIn: Lark Park", href: "https://www.linkedin.com/company/lark-park/" },
     ],
   },
