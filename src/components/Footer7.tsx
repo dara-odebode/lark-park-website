@@ -17,7 +17,7 @@ const defaultSections = [
     title: "CONTACT US",
     links: [
       {
-        name: "Email: Larkparktheatre@gmail.com",
+        name: "Email: larkparktheatre@gmail.com",
         href: "mailto:Larkparktheatre@gmail.com",
       },
     ],
