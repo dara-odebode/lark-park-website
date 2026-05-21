@@ -186,7 +186,7 @@ export default function HomePage() {
       <div className="flex flex-col md:flex-row gap-6 md:gap-50 w-full px-4 md:ml-5 text-2xl mb-25 md:mb-20">
 
       <ProjectCard
-        img="/Introduction to Devising 1.PNG"
+        img="/Devising for Social Change (behind the scenes).jpg"
       />
 
       <ProjectCard

@@ -163,13 +163,13 @@ export default function HomePage() {
       <div className="flex flex-col md:flex-row gap-12 md:gap-20 w-full mb-20 px-4 md:px-10">
 
         <ProjectCard
-          img="/Introduction to Devising 2.jpg"
+          img="/Devising for Social Change (main).jpg"
           title="INTRODUCTION TO DEVISING FOR SOCIAL CHANGE"
           href="/projects/social-change"
         />
 
         <ProjectCard
-          img="/Character Creation Photo.jpg"
+          img="/Character Creation.jpg"
           title="INTRODUCTION TO DEVISING AND CHARACTER CREATION"
           href="/projects/character-creation"/>
 

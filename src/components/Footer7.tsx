@@ -93,7 +93,7 @@ const Footer7 = ({ sections = defaultSections }: Footer7Props) => {
             </div>
 
             <p className=" text-amber-50 text-sm md:text-xl font-medium tracking-wide text-center md:text-left">
-              © 2025 LARK PARK THEATRE
+              © 2026 LARK PARK THEATRE
             </p>
           </div>
         </div>

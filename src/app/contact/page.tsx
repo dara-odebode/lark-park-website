@@ -116,7 +116,6 @@ return (
       <li><a href="https://www.tiktok.com/@larkparktheatre" target="_blank">TikTok</a></li>
       <li><a href="https://www.linkedin.com/company/lark-park/" target="_blank">LinkedIn</a></li>
     </ul>
-
   </div>
 
     {/* image */}
