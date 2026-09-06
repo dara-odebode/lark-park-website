@@ -68,53 +68,53 @@ const Footer7 = ({ sections = defaultSections }: Footer7Props) => {
           </div>
         </div>
 
-        {/* Footer bar */}
-        <div className="border-t-2 border-[#C64534] mt-10 pt-6 flex flex-col md:flex-row justify-between items-center font-medium text-[#F3EAE5]">
-        <div className="flex flex-col md:flex-row items-center gap-20 md:gap-85">
+{/* Footer bar */}
+<div className="border-t-2 border-[#C64534] mt-10 pt-6 flex flex-col md:flex-row justify-between items-center gap-8 font-medium text-[#F3EAE5]">
 
-            {/* LARK LOGO 1 */}
-            <div className="relative h-[80px] w-[120px] md:h-[120px] md:w-[130px]">
-              <Image
-                src="/footerLogo.png"
-                alt="lark park logo"
-                fill
-                className="object-contain"
-              />
-            </div>
+  {/* LARK LOGO 1 */}
+  <div className="relative h-[80px] w-[120px] md:h-[120px] md:w-[130px] shrink-0">
+    <Image
+      src="/footerLogo.png"
+      alt="lark park logo"
+      fill
+      className="object-contain"
+    />
+  </div>
 
-          <div>
-            <p>
-            Previously partnered with
-            </p>
-          </div>
-          
-            {/* GSA LOGO */}
-            <div className="relative h-[80px] w-[100px] md:h-[120px] md:w-[110px]">
-              <Image
-                src="/gsa.png"
-                alt="gsa logo"
-                fill
-                className="object-contain"
-              />
-            </div>
-
-            {/* Entreprise LOGO */}
-            <div className="relative h-[80px] w-[100px] md:h-[120px] md:w-[110px]">
-              <Image
-                src="/Surrey Entreprise.png"
-                alt="gsa logo"
-                fill
-                className="object-contain"
-              />
-            </div>
-
-            <p className=" text-amber-50 text-sm md:text-xl font-medium tracking-wide text-center md:text-left">
-              © 202999 LARK PARK THEATRE
-            </p>
-
-          </div>
-        </div>
+  {/* Partner logos group */}
+  <div className="flex flex-col items-center md:mr-8 lg:ml-30 gap-4">
+    <p className="text-sm md:text-base text-amber-50 tracking-wider">
+      Previously partnered with
+    </p>
+    <div className="flex flex-row items-center gap-8 md:gap-10">
+      {/* GSA LOGO */}
+      <div className="relative h-[70px] w-[90px] md:h-[100px] md:w-[100px]">
+        <Image
+          src="/gsa.png"
+          alt="gsa logo"
+          fill
+          className="object-contain"
+        />
       </div>
+
+      {/* Surrey Entreprise Logo */}
+      <div className="relative h-[70px] w-[90px] md:h-[140px] md:w-[140px]">
+        <Image
+          src="/Surrey Entreprise.png"
+          alt="surrey entreprise logo"
+          fill
+          className="object-contain"
+        />
+      </div>
+    </div>
+  </div>
+
+  {/* Copyright */}
+  <p className="text-amber-50 md:mr-8 lg:mr-30 text-sm md:text-xl font-medium tracking-wide text-center md:text-left">
+    © 2026 LARK PARK THEATRE
+  </p>
+</div>
+          </div>
     </section>
   );
 };
