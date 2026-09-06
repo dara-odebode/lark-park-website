@@ -70,7 +70,7 @@ const Footer7 = ({ sections = defaultSections }: Footer7Props) => {
 
         {/* Footer bar */}
         <div className="border-t-2 border-[#C64534] mt-10 pt-6 flex flex-col md:flex-row justify-between items-center font-medium text-[#F3EAE5]">
-        <div className="flex flex-col md:flex-row items-center gap-6 md:gap-85">
+        <div className="flex flex-col md:flex-row items-center gap-20 md:gap-85">
 
             {/* LARK LOGO 1 */}
             <div className="relative h-[80px] w-[120px] md:h-[120px] md:w-[130px]">
@@ -82,6 +82,12 @@ const Footer7 = ({ sections = defaultSections }: Footer7Props) => {
               />
             </div>
 
+          <div>
+            <p>
+            Previously partnered with
+            </p>
+          </div>
+          
             {/* GSA LOGO */}
             <div className="relative h-[80px] w-[100px] md:h-[120px] md:w-[110px]">
               <Image
@@ -92,9 +98,20 @@ const Footer7 = ({ sections = defaultSections }: Footer7Props) => {
               />
             </div>
 
+            {/* Entreprise LOGO */}
+            <div className="relative h-[80px] w-[100px] md:h-[120px] md:w-[110px]">
+              <Image
+                src="/Surrey Entreprise.png"
+                alt="gsa logo"
+                fill
+                className="object-contain"
+              />
+            </div>
+
             <p className=" text-amber-50 text-sm md:text-xl font-medium tracking-wide text-center md:text-left">
-              © 2026 LARK PARK THEATRE
+              © 202999 LARK PARK THEATRE
             </p>
+
           </div>
         </div>
       </div>
